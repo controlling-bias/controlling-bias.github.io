@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    {% seo title=false %}
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+    <meta name="theme-color" content="#000000">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/yale.svg"> -->
+  </head>
+
+  <body>
+    <div id="bar"></div>
+    <div class="wrapper-container">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <!-- <p class="site-description">{{ site.description }}</p>  -->
+            </div>
+
+<!--             <nav>
+              <a href="{{ site.baseurl }}/">Home</a>
+              <a href="{{ site.baseurl }}/getting-started">Getting Started</a>
+              <a href="{{ site.baseurl }}/search">Search</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+            </nav>
+ -->          </header>
+        </div>
+      </div>
+
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+          {{ site.description }}
+        </div>
+      </div>
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+        <h2> Demos & Notebooks</h2>
+        <div style="text-align: center;">
+          <p>
+            <a href="https://fair-personalized-news.herokuapp.com/fast/diversity.php">
+              <img src="images/polarization.png" height="150" width="150"/>
+            </a><span style="display:inline-block; width: 75px;"></span>
+            <a href="https://fair-image-search.herokuapp.com/imageDiversity.php">
+              <img src="images/sampling.png" height="150" width="150"/>
+            </a><span style="display:inline-block; width: 75px;"></span>
+            <a href="https://fair-online-advertising.herokuapp.com/">
+              <img src="images/onlineAd.png" height="150" width="150" >
+            </a>
+          </p>
+          <p>
+            <a href="https://fair-voting-demo.herokuapp.com/">
+              <img src="images/voting.png" height="130" width="150"/>
+            </a><span style="display:inline-block; width: 75px;"></span>
+            <a href="http://balanced-ranking.herokuapp.com/">
+              <img src="images/ranking.png" height="130" width="150"/>
+            </a><span style="display:inline-block; width: 75px;"></span>
+            <a href="http://cs.yale.edu/bias/blog/jekyll/update/2018/11/06/fair-classification.html">
+              <img src="images/classification.png" height="130" width="150" >
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com/vijaykeswani/Fair-Max-Entropy-Distributions/blob/master/FairMaxEnt-expts-1.ipynb">
+              <img src="images/rebalancing.png" height="130" width="150"/>
+            </a>            
+          </p>
+        </div>
+
+        </div>
+          <!-- <img src="images/polarization.png" alt="Polarization in News Search" style="width:150px;height:150px;"> -->
+          <!-- <img src="images/voting.png" alt="Multi-winner Voting" style="width:150px;height:150px;"> -->
+      </div>
+
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+        <h2> People </h2>
+          <b>Faculty</b> - <a href={{ site.faculty1Site }}>{{ site.faculty1 }}</a>, <a href={{ site.faculty2Site }}>{{ site.faculty2 }}</a> <br>
+          <b>Postdocs</b> - <a href={{ site.postDoc1Site }}>{{ site.postDoc1 }}</a> <br>
+          <b>PhD students</b> - <a href={{ site.phdStudent1Site }}>{{ site.phdStudent1 }}</a>, <a href={{ site.phdStudent2Site }}>{{ site.phdStudent2 }}</a><br>
+          <b>Undergraduate students</b> - {{ site.undergrad1 }} <br>
+          <b>Alumni</b> - {{ site.alumni }} <br>
+        </div>
+      </div>
+
+
+      <div class="wrapper-main">
+        <div id="main" role="main" class="container">
+        <h2> Papers </h2>
+        {{ content }}
+        </div>
+      </div>
+
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
