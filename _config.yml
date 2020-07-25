@@ -6,8 +6,7 @@
 name: Controlling Bias in Artificial Intelligence
 
 # Short bio or description (displayed in the header)
-description: The use of demographically misrepresentative datasets or inappropriate models often leads to social biases in the results of automated models. Context-aware design and implementation of machine learning and artificial intelligence models is, therefore, becoming increasingly necessary. Our group aims to address social biases in AI, with a focus on providing feasible alternatives to currently-used biased models.
-
+description: The use of demographically misrepresentative datasets, inappropriate models or algorithms often leads to incorporation of social biases in the results of automated decision making algorithms. Context-aware design and implementation of machine learning and artificial intelligence models is, therefore, becoming increasingly necessary. Our group aims to address social biases in AI, with a focus on providing feasible alternatives to currently-used biased models. 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/blank.png
 
