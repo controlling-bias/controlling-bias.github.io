@@ -6,30 +6,80 @@
 name: Controlling Bias in Artificial Intelligence
 
 # Short bio or description (displayed in the header)
-description: The use of demographically misrepresentative datasets, inappropriate models or algorithms often leads to incorporation of social biases in the results of automated decision making algorithms. Context-aware design and implementation of machine learning and artificial intelligence models is, therefore, becoming increasingly necessary. Our group aims to address social biases in AI, with a focus on providing feasible alternatives to currently-used biased models.
+description: The use of demographically misrepresentative datasets or inappropriate models often leads to social biases in the results of automated models. Context-aware design and implementation of machine learning and artificial intelligence models is, therefore, becoming increasingly necessary. Our group aims to address social biases in AI, with a focus on providing feasible alternatives to currently-used biased models.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /images/blank.png
 
 
-faculty1: Elisa Celis
-faculty2: Nisheeth Vishnoi
+faculty:
+  - name: Elisa Celis,
+    website: https://datascienceethics.org
 
-faculty1Site: https://datascienceethics.org
-faculty2Site: https://www.cs.yale.edu/homes/vishnoi
+  - name: Nisheeth Vishnoi
+    website: https://www.cs.yale.edu/homes/vishnoi
 
-postDoc1: Lingxiao Huang
-postDoc1Site: https://scholar.google.com/citations?user=SWz0BvoAAAAJ&hl=en
+postdoc:
+  - name: Lingxiao Huang
+    website: https://scholar.google.com/citations?user=SWz0BvoAAAAJ&hl=en
 
-phdStudent1: Vijay Keswani
-phdStudent1Site: https://vijaykeswani.github.io/
+phd:
+  - name: Vijay Keswani,
+    website: https://vijaykeswani.github.io/
 
-phdStudent2: Anay Mehrotra
-phdStudent2Site: https://anaymehrotra.github.io/
+  - name: Anay Mehrotra
+    website: https://anaymehrotra.github.io/
 
-undergrad1: Chris Hays, Yi Chern Tan
+undergrad:
+  - name: Chris Hays,
+    website: \#
 
-alumni:  Nishtha Madan, Sayash Kapoor, Farnood Salehi, Damian Straszak, Julia Wei 
+  - name: Yi Chern Tan
+    website: \#
+
+alumni: Damian Straszak, Sayash Kapoor, Ozan Yildiz, Nishtha Madan
+
+
+
+###### Demo information
+
+demos:
+    - title: Polarization 
+      description: Prototype of a balanced content delivery engine
+      website: https://fair-personalized-news.herokuapp.com/fast/diversity.php
+      image: images/polarization.png
+
+    - title: Online Advertisements 
+      description: Simple platform to serve fair advertisements
+      website: https://fair-online-advertising.herokuapp.com
+      image: images/onlineAd.png
+
+    - title: Multiwinner Voting 
+      description: Framework to demonstrate fair multiwinner voting algorithms
+      website: https://fair-voting-demo.herokuapp.com
+      image: images/voting.png
+
+    - title: Sampling 
+      description: Prototype to return gender-balanced image search results
+      website: https://fair-image-search.herokuapp.com/imageDiversity.php
+      image: images/sampling.png
+
+    - title: Ranking 
+      description: Balanced ranking framework with applications to search engines, news feeds and recommendation systems
+      website: http://balanced-ranking.herokuapp.com
+      image: images/ranking.png
+
+    - title: Classification 
+      description: A meta-classification algorithm to return fair and accurate prediction, with respect to various fairness metrics
+      website: https://github.com/Trusted-AI/AIF360/blob/master/examples/demo_meta_classifier.ipynb
+      image: images/classification.png
+
+    - title: Rebalancing Data 
+      description: Python notebook to construct and evaluate unbiased maximum-entropy distributions from biased datasets
+      website: https://github.com/vijaykeswani/Fair-Max-Entropy-Distributions/blob/master/FairMaxEnt-expts-1.ipynb
+      image: images/rebalancing.png
+
+
 
 #
 # Flags below are optional
