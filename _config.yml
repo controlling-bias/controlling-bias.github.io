@@ -51,12 +51,12 @@ demos:
       image: images/sampling.png
 
     - title: Polarization 
-      description: Prototype for politically-balanced and personalized newsfeeds.
+      description: Prototype for politically-balanced and personalized newsfeeds. [[Video]](https://www.youtube.com/watch?v=Zvum0t1EYtQ)
       website: https://fair-personalized-news.herokuapp.com/fast/diversity.php
       image: images/polarization.png
 
     - title: Multiwinner Voting 
-      description: Elect a committee that is balanced across different attribute types. <b>Deployed in Swiss elections.</b>
+      description: Elect a committee that is balanced across different attribute types. <b>Deployed in Swiss elections.</b> [[Video]](https://www.youtube.com/watch?v=X6M1fpcEBQE)
       website: https://fair-voting-demo.herokuapp.com
       image: images/voting.png
 
