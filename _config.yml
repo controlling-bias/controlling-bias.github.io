@@ -36,7 +36,7 @@ demos:
 
     - title: Multiwinner Voting 
       description: Elect a committee that is balanced across different attribute types. <b>Deployed in Swiss elections.</b> <a href=https://www.youtube.com/watch?v=X6M1fpcEBQE>[Video]</a>
-      website: https://fair-voting-demo.herokuapp.com
+      website: https://desolate-river-31502-b99360b7ef29.herokuapp.com/
       image: images/voting.png
 
     - title: Ranking 
