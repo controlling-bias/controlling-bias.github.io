@@ -41,7 +41,7 @@ demos:
 
     - title: Ranking 
       description: Prototype for gender-balanced rankings with applications to search engines, newsfeeds, and recommendation systems.
-      website: http://balanced-ranking.herokuapp.com
+      website: https://fair-ranking-demo-eb8e06ab60f1.herokuapp.com/
       image: images/ranking.png
 
     - title: Classification 
@@ -51,7 +51,7 @@ demos:
 
     - title: Online Advertising
       description: Prototype for gender-balanced and auction-based online advertising platform.
-      website: https://fair-online-advertising.herokuapp.com
+      website: https://fair-online-advertising-1169616bfb8a.herokuapp.com/
       image: images/onlineAd.png
 
     - title: Debiasing Data 
